@@ -1,0 +1,158 @@
+/* Nav*/
+.logo {
+  width: 100px;
+  border-radius: 50%;
+}
+ul li {
+  margin-top: 25px;
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
+a:hover {
+  text-decoration: none;
+  background-color: rgb(25, 117, 17);
+  color: black;
+}
+.body {
+  background-image: url("images/backgrund.jfif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+/* Nav*/
+
+/*Header */
+.intro {
+  margin-bottom: 40px;
+}
+h1 {
+  font-size: 100px;
+}
+.bg-image {
+  width: 100%;
+  height: 400px;
+}
+.small-container {
+  max-width: 1080px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col-3 {
+  flex: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+.col-3 img {
+  width: 100%;
+}
+.card {
+  width: 30%;
+  margin: 0;
+}
+
+.testimonial {
+  padding-top: 100px;
+}
+.rating .fa {
+  color: rgb(45, 167, 116);
+}
+.fa.fa-quote-left {
+  font-size: 34px;
+  color: rgb(45, 167, 116);
+}
+.testimonial .col-3:hover {
+  transform: translateY(-10px);
+}
+.testimonial .col-3 img {
+  width: 50px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+/*----Partners----*/
+.partners {
+  margin: 100px auto;
+}
+.col-5 {
+  width: 160px;
+}
+.col-5 img {
+  width: 100%;
+  cursor: pointer;
+  filter: grayscale(100%);
+  filter: contrast(50%);
+}
+.col-5 img:hover {
+  filter: grayscale(0);
+}
+/*--vision---*/
+.ide {
+  margin-top: 5px;
+  border-top: 2px solid green;
+  border-bottom: 2px solid green;
+}
+.ide h2 {
+  margin-top: 5px;
+}
+/*Header */
+
+/*Footer*/
+.footer-icons a {
+  margin: 10px;
+}
+.footer-icons a:hover {
+  margin: 10px;
+  color: red;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.container-fluid {
+  background-image: url("images/backgrund.jfif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+}
+
+/*OM-Oss*/
+.row {
+  display: flexbox;
+  justify-content: space-between;
+}
+.bild1 {
+  border-radius: 10%;
+  margin: 20px;
+}
+.historia {
+  text-align: center;
+  margin-top: 100px;
+  border: 2px solid green;
+  border-radius: 10px;
+  height: 100%;
+}
+.historia p {
+  text-align: left;
+  padding: 20px;
+}
+
+.Sammarbetspartner {
+  border: 2px solid rgb(68, 218, 68);
+  min-height: 200px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.bilder img {
+  margin: 20px;
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+}
+/*Kontakt*/
