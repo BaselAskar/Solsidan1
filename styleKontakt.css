@@ -1,0 +1,101 @@
+/* Nav*/
+.body {
+  width: 100%;
+  height: 100%;
+}
+.logo {
+  width: 100px;
+  border-radius: 50%;
+}
+ul li {
+  margin-top: 25px;
+}
+.nav .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.nav .nav-link:hover {
+  color: rgb(216, 240, 6);
+}
+.body {
+  background-image: url("images/backgrund.jfif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.contact-form .row {
+  margin: 60px;
+}
+
+button {
+  width: 250px;
+}
+
+.btn-success a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.btn-success a:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.mailto {
+  width: 100px;
+  margin-left: 20px;
+}
+h3 {
+  margin-left: 80px;
+}
+
+.kontakt {
+  margin-left: 20px;
+}
+p a {
+  text-decoration: none;
+  color: rgb(7, 7, 7);
+}
+
+/* Nav*/
+
+/*Kontakt*/
+.container {
+  margin-top: 50px;
+  border-radius: 5px;
+  height: 100%;
+  min-height: 579px;
+}
+.card {
+  box-shadow: 5px 10px green;
+}
+
+/*Footer*/
+.footer-icons a {
+  margin-right: 50px;
+  color: white;
+}
+.footer-icons a:hover {
+  cursor: pointer;
+  color: rgb(139, 9, 9);
+}
+h6:hover {
+  cursor: pointer;
+  color: rgb(139, 9, 9);
+  font-size: 19px;
+  background-color: white;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.mailto {
+  width: 100px;
+  margin-left: 20px;
+}
+
+.footer {
+  background-image: url(/images/backgrund.jfif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  height: 110px;
+}

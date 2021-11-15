@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="inspiration.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -39,22 +39,39 @@
         </div>
     </nav>
 
+    <h1 style="text-align: center " class="mt-5 mb-5">Bilder från solsidansmikroodlings Instagram</h1>
+    <div id="instafeed-container"></div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+    <script type="text/javascript">
+        var userFeed = new Instafeed({
+            get: 'user',
+            target: "instafeed-container",
+            resolution: 'low_resolution',
+            accessToken: 'IGQVJWOGhaYS1mTmFVZA2NyUndxTGRBaDQ2ZAjhlVjBuNlJ5b2xNUW5nRzJCOUx6NU5YOHVlZA3V5djdCcWdmZA1VUMUJUbVphV2RGV1RnNVIweURLa2UxQWZABRG9QLUlnWF9RNk9SN1FuaFpzZAjVsZAWY0RgZDZD'
+        });
+        userFeed.run();
+    </script>
+
 
     <!--Footer-->
-    <div class="container-fluid">
+    <div class="footer mt-5">
         <div class="footer-end d-flex justify-content-between align-items-center flex-wrap">
-            <img src="images/logo.png" class="logo">
-            <h6>© 2021 Solsidans Mikroodling. All rights reserved. </h6>
-            <div class="footer-icons">
+
+            <button class="btn btn-success mailto mt-5"><a href="mailto:hgusinac@gmail.com">Maila
+                    Oss</a></button>
+            <h6 class="mt-5">© 2021 Solsidans Mikroodling. All rights reserved. </h6>
+            <div class="footer-icons mt-5">
                 <a href="https://www.instagram.com/solsidansmikroodling/"><i class="bi bi-instagram"></i></a>
                 <a href="https://www.facebook.com/solsidansmikroodling"><i class="bi bi-facebook"></i></a>
-                <a href="https://www.linkedin.com/in/tina-ohlsson-algesk%C3%A4r-b2017aa7/"><i
+                <a href="https://www.linkedin.com/in/solsidans-mikroodling-546979223/"><i
                         class="bi bi-linkedin"></i></a>
             </div>
 
         </div>
     </div>
-
 </body>
 
 </html>

@@ -1,0 +1,72 @@
+a img {
+  width: 20%;
+  padding: 5px;
+}
+#instafeed-container {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+/* Nav*/
+.body {
+  width: 100%;
+  height: 100%;
+}
+.logo {
+  width: 100px;
+  border-radius: 50%;
+}
+ul li {
+  margin-top: 25px;
+}
+.nav .nav-link {
+  color: rgb(255, 255, 255);
+}
+
+.nav .nav-link:hover {
+  color: rgb(216, 240, 6);
+}
+.body {
+  background-image: url("images/backgrund.jfif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+/*Footer*/
+.footer-icons a {
+  margin-right: 50px;
+  color: white;
+}
+.footer-icons a:hover {
+  cursor: pointer;
+  color: rgb(139, 9, 9);
+}
+h6:hover {
+  cursor: pointer;
+  color: rgb(139, 9, 9);
+  font-size: 19px;
+  background-color: white;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+}
+.mailto {
+  width: 100px;
+  margin-left: 20px;
+}
+
+.footer {
+  background-image: url(/images/backgrund.jfif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  height: 110px;
+}
+.btn-success a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.btn-success a:hover {
+  cursor: pointer;
+  color: black;
+}
