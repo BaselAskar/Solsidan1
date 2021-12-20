@@ -1,3 +1,7 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /* Nav*/
 .body {
   width: 100%;
@@ -140,4 +144,31 @@ h6:hover {
 .btn-success a:hover {
   cursor: pointer;
   color: black;
+}
+.texten {
+  font-size: 25px;
+}
+
+@media (max-width: 600px) {
+  .ide p {
+    padding: 10px;
+  }
+  .ide h2 {
+    padding: 20px;
+  }
+
+  .body {
+    background-image: url("images/backgrund.jfif");
+    background-size: 200vh;
+    background-attachment: fixed;
+  }
+
+  .footer {
+    background-image: url("images/backgrund.jfif");
+    background-repeat: initial;
+    color: black;
+  }
+  h6 {
+    display: none;
+  }
 }

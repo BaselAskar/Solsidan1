@@ -56,7 +56,7 @@ h6:hover {
 }
 
 .footer {
-  background-image: url(/images/backgrund.jfif);
+  background-image: url(images/backgrund.jfif);
   background-repeat: no-repeat;
   background-size: 100%;
   color: white;
@@ -69,4 +69,35 @@ h6:hover {
 .btn-success a:hover {
   cursor: pointer;
   color: black;
+}
+
+.card {
+  margin-right: 20px;
+}
+
+@media (max-width: 600px) {
+  .ide p {
+    padding: 10px;
+  }
+  .ide h2 {
+    padding: 20px;
+  }
+
+  .body {
+    background-image: url("images/backgrund.jfif");
+    background-size: 200vh;
+    background-attachment: fixed;
+  }
+
+  .footer {
+    background-image: url("images/backgrund.jfif");
+    background-repeat: initial;
+    color: black;
+  }
+  h6 {
+    display: none;
+  }
+  .card {
+    justify-content: space-around;
+  }
 }

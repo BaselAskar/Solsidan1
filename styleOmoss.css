@@ -96,3 +96,36 @@ h6:hover {
   cursor: pointer;
   color: black;
 }
+
+@media (max-width: 600px) {
+  .ide p {
+    padding: 10px;
+  }
+  .ide h2 {
+    padding: 20px;
+  }
+
+  .body {
+    background-image: url("images/backgrund.jfif");
+    background-size: 200vh;
+    background-attachment: fixed;
+  }
+
+  .footer {
+    background-image: url("images/backgrund.jfif");
+    background-repeat: initial;
+    color: black;
+  }
+  h6 {
+    display: none;
+  }
+
+  .bild1 {
+    width: 90%;
+  }
+  .container {
+    width: 100%;
+  }
+  .historia {
+  }
+}
